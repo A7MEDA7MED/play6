@@ -31,7 +31,7 @@ client.on('ready', () => {
 
 client.on('ready', () => {
     console.log(`${client.user.tag} Is idle !`) 
-    client.user.setGame(`Royal Legend Clan . 6help`)
+    client.user.setGame(`! Hydrogen . 6help`)
 });
 
 
