@@ -297,6 +297,10 @@ if (message.content.startsWith('6help')) { //DiamondCodes - [ X_KillerYT ]
 
 
 
-
+client.on('message', message => {
+    if(message.content === '.'){
+        message.channel.send(':505815002570031177:')
+    }
+});
 
 client.login(process.env.BOT_TOKEN)
