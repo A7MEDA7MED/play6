@@ -293,6 +293,7 @@ if (message.content.startsWith('6help')) { //DiamondCodes - [ X_KillerYT ]
     }
 });
 
+    let emoji = client.guilds.get("534014192445947915").emojis.find(r => r.name === ":505815002570031177:");
 
 
 
